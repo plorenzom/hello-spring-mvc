@@ -7,8 +7,6 @@
         <title>Hello Spring MVC</title>
     </head>
     <body>
-        <h1>index</h1>
-        <c:url value="/helloworld" var="url"/>
-        <p>Click <a href="${url}">aqu&iacute;</a> para recibir un saludo.
+        <h1><c:out value="${message}"/></h1>
     </body>
 </html>
